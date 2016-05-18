@@ -1,4 +1,4 @@
-/* Reset */
+ Reset */
 /* ------------------------ */
 * {
 	margin: 0;
@@ -13,27 +13,30 @@ p {
 /* Layout */
 /* ------------------------ */
 body {
-	background-color: #888888;
-	color: #FFFFFF;
-
-	padding: 15 px solid #878787;
-	border: 5px solid #878787;
-	margin: 30 px;
+	background-color: #000000;
+	color: #ffffff;
 }
 
 header {
 	text-align: center;
 }
 
+/*H1 Sarah Burns*/
+
 h1 { 
 	text-align: center;
+	padding-bottom: 5px;
 	
 }
 
-
-footer {
+h2 {
 	text-align: center;
 }
+
+ul {
+	text-align: center;
+}
+
 
 .title {font-size: 36px;
 }
@@ -58,7 +61,7 @@ main {
 /* Headings */
 /* ------------------------ */
 
-h1, li
+h1, li,
 {
 	font-family: Arial;
 }
@@ -70,7 +73,7 @@ h1, li
 
 /* Links */
 /* ------------------------ */
-a {color: #23D39E;
+a {color: #fa8072;
 }
 
 
@@ -79,8 +82,8 @@ a {color: #23D39E;
 /* ------------------------ */
 img {
 	float: right;
-	padding: 5px;
-	border: 1px solid #878787 ;
+	padding: 10px;
+	border: 2px solid #fa8072;
 	margin-left: 10px;
 	margin-bottom: 20px
 
@@ -93,4 +96,4 @@ img {
 
 
 /* Resume page - Experience */
-/* ------------------------ */
+/* ------------------------ 
