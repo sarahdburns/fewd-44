@@ -1,4 +1,40 @@
+Reset*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 /*Body*/
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;	
+	display: flex;
+}
+
+/*Left Column*/
+.left-column {
+	background-color: #F0F0D9;
+}
+
+.bonnie-owens {
+	color: #8AAC92;
+}
+
+.cookie-image {
+	position: relative;
+}
+
+.horizontal-instructions {
+	
+}
+
+/*Right Column*/
+.right-column {
+	background-color: #EFD794;
+
+}
+
+/*Headers*/
+h1, h2 {
+	color: #B06248;
 }
