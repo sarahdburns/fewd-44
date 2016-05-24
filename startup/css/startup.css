@@ -1,0 +1,65 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/*Body*/
+
+/*Header*/
+
+header h1 {
+	background: black;
+	color: yellow;
+}
+
+header ul {
+	background: black;
+	display: flex;
+	justify-content: flex-end;
+}
+
+header li {
+	color: white;
+}
+
+header p {
+	background: grey;
+}
+
+/*Main*/
+
+.container {
+	position: relative;
+}
+
+.meet-your-match {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 300px;
+	padding: 25px;
+	border: 1px solid black;
+	background: rgba(255,255,255,0.8);
+}
+
+.meet-your-match-button {
+	background: yellow;
+	padding: 10px;
+	width: 175px;
+	text-align: center;
+	border: .5px solid black;
+}
+
+.bottom-flex-box{
+	flex-direction: row;
+}
+
+/*Footer*/
+
+footer {
+	background: black;
+	color: white;
+	padding: 10px;
+}

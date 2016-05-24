@@ -55,28 +55,53 @@ body {
 }
 
 /*Header*/
+
 header {
 	background-color: #e6e6fa;
 	font-size: 40px;
-	font-family: Arial;
+	font-family:'News Cycle', sans-serif;
 	margin-bottom: 40px;
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 40px;
 	background-color: grey;
 	color: midnightblue;
+	font-family: 'News Cycle', sans-serif;
+	text-align: center;
+
 }
 
 h2 {
 	font-size: 25px;
 	margin-bottom: 15px;
-	font-family: Arial;
+	font-family: 'News Cycle', sans-serif;
+	text-align: center;
+	text-decoration: underline;
+}
+
+/*Homework Section*/
+.homework {
+	text-align: center;
+}
+
+/*Code Along Section*/
+.code-alongs {
+	text-align: center;
 }
 
 /*Links*/
 li {
 	color: #d3d3d3;
 	margin-bottom: 20px;
-	font-family: Arial;
+	font-family: 'News Cycle', sans-serif;
+}
+
+/*Footer*/
+.footer {
+	font-family: 'News Cycle', sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 40px;
 }
