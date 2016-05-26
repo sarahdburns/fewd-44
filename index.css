@@ -50,7 +50,7 @@ table {
 
 /*Layout*/
 body {
-	background-color: teal;
+	background-color: mintcream;
 	color: black;
 }
 
@@ -65,7 +65,7 @@ header {
 
 h1 {
 	font-size: 40px;
-	background-color: grey;
+	background-color: #dcdcdc;
 	color: midnightblue;
 	font-family: 'News Cycle', sans-serif;
 	text-align: center;
