@@ -1,3 +1,33 @@
 /* Fonts */
+body {
+    font-family: "Lato", Arial, sans-serif;
+}
 
-/* Layout */
+/*Layout*/
+
+/*Header*/
+
+h1 {
+	color: #DE3B30;
+	font-weight: lighter;
+	font-size: 48px;
+	padding-bottom: 10px;
+}
+
+h2 {
+
+}
+
+.better-dressed {
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+
+.container {
+	display: flex;
+	padding-bottom: 
+}
+
+/*Main*
+
+/*Footer*/

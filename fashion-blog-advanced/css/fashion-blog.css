@@ -1,0 +1,73 @@
+/* Fonts */
+body {
+    font-family: "Lato", Arial, sans-serif;
+}
+
+/*Layout*/
+
+/*Header*/
+
+h1 {
+	color: #DE3B30;
+	font-weight: lighter;
+	font-size: 48px;
+	padding-bottom: 10px;
+}
+
+h2 {
+
+}
+
+.better-dressed {
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+
+.navigation {
+	display: flex;
+	padding-bottom: 
+}
+
+.navigation ul {
+	display: flex;
+	width: 100%;
+}
+
+.navigation li {
+	flex: 1;
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+.navigation a {
+
+}
+
+/*Main*/
+.blog-space {
+	display: flex;
+}
+
+/*Sidebar*/
+
+.side-bar {
+	padding-left: 25px;
+
+}
+
+.about-us {
+	font-weight: bold;
+	padding-bottom: 18px;
+}
+
+/*Footer*/
+
+footer ul {
+	display: flex;
+}
+
+footer li {
+	width: 100%;
+	text-align: center;
+}
