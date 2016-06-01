@@ -1,0 +1,13 @@
+/*Body*/
+
+body {
+	background: #c0c0c0;
+	text-align: center;
+	font-family: 'Play', sans-serif;
+}
+
+/*Responsive*/
+
+@media (max-width: 450px) {
+	flex-direction: column;
+}

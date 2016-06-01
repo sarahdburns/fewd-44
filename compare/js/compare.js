@@ -33,9 +33,11 @@ function compareNumbers () {
 
 	// update the page - change the sign
 	
-	//JS Conditional (if, else if, else)
+	//JS Topic:  Conditional (if, else if, else)
+	//JS Topic:  Comparison (greater than, less than)
 
-	//JS Comparison (greater than, less than)
+	//processing 
+	
 	if (firstValue > secondValue) {
 		sign.textContent = ">";
 

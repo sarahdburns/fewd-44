@@ -1,0 +1,26 @@
+body {
+	background-color: #4682b4;
+	text-align: center;
+	font-family: monospace;
+}
+
+.sign {
+	font-size: 40px;
+}
+
+.first-number {
+	background-color: #b0c4de;
+	border-bottom-width: 1px solid #add8e6;
+}
+
+.second-number{
+	background-color: #b0c4de;
+	border-bottom-width: 1px solid #add8e6;
+}
+
+.compare {
+	margin-top: 20px;
+	font-size: 16px;
+	border: 1px solid black;
+	font-family: monospace;
+}
