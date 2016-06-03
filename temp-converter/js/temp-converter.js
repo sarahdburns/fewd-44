@@ -31,7 +31,6 @@ function fahrenheitToCelsius () {
 	//update the page
 	fahrenheit.value = c.toFixed(1);
 
-
 }
 
 //Event Handler Celsius to Fahrenheit 
