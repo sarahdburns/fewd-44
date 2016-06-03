@@ -1,20 +1,45 @@
 /*Color Switcher*/
 body {
 	background: thistle;
+	font-family: Arial;
 }
 
 .coral {
 	background: coral;
+	color: aquamarine;
 }
 
 .aliceblue {
 	background: aliceblue;
+	color: slateblue;
 }
 
 .rebeccapurple {
 	background: rebeccapurple;
+	color: skyblue;
 }
 
 .lightseagreen {
 	background: lightseagreen;
+	color: lightgrey;
+
+}
+
+main {
+	margin: 50px;
+
+}
+
+ul {
+	display: flex;
+	margin: 20px 0;
+}
+
+li {
+	width: 50px;
+	height: 50px;
+	border: 3px solid black;
+	border-radius: 50%;
+	margin-right: 20px;
+	text-indent: -3000px;
 }
