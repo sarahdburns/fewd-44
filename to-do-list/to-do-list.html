@@ -7,18 +7,26 @@
 	<link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
-<h1>To Do List</h1>
-<input type="text" name="Task">
-<input type="date" name="mm/dd/yyyy">
-<button>Add</button>
-	<br>
-		<div class="checkbox-list">
-			<input type="checkbox" name="to do" value="laundry"> Laundry
-			<input type="checkbox" name="to do" value="laundry"> Grocery
-			<input type="checkbox" name="to do" value="laundry"> Dishes
-			<input type="checkbox" name="to do" value="laundry"> Clean Room
-		</div>
-
+	<header>
+		<h1>To Do List</h1>
+	</header>
+	<main>
+		<form>
+			<input type="text" name="task" placeholder="Task">
+			<input type="date" name="date" placeholder="dd/mm/yyyy">
+			<button>Add</button>
+		<br>
+			<div class="checkbox-list">
+				<input type="checkbox" name="to do" value="laundry"> Laundry
+				<br>
+				<input type="checkbox" name="to do" value="laundry"> Grocery
+				<br>
+				<input type="checkbox" name="to do" value="laundry"> Dishes
+				<br>
+				<input type="checkbox" name="to do" value="laundry"> Clean Room
+			</div>
+		</form>
+</main>
 
 </body>
 </html>

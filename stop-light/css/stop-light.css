@@ -1,0 +1,68 @@
+.container {
+width: 600px;
+display: flex;
+justify-content: space-between;
+margin: 50px auto;
+
+}
+
+.buttons {
+width: 300px;
+padding: 10px;
+}
+
+button {
+	display: block;
+	width: 100px;
+	color: white;
+	font-family: arial;
+	font-size: 30px;
+	padding: 10px;
+	background: black;
+	font-weight: bold;
+	margin: 80px;
+	border: none;
+	border-radius: 10px;
+}
+
+ol {
+	list-style-type: none;
+	background: black;
+	border-radius: 10px;
+	width: 275px;
+	height: 500px;
+	padding-top: 10px;
+}
+
+.red {
+	background: red;
+	border-radius: 50px;
+	height: 50px;
+	width: 50px;
+	margin: 60px auto;
+	padding: 40px;
+
+}
+
+.yellow {
+	background: yellow;
+	border-radius: 50px;
+	height: 50px;
+	width: 50px;
+	margin: 60px auto;
+	padding: 40px;
+
+}
+
+.green {
+	background: green;
+	border-radius: 50px;
+	height: 50px;
+	width: 50px;
+	margin: 60px auto;
+	padding: 40px;
+
+}
+
+
+

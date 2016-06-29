@@ -2,17 +2,46 @@
 body {
 	font-family: Calibri;
 	text-align: center;
+	background: #CCCCFF;
 }
 
-/*H1*/
+/*Header*/
+h1 {
+	color: #CCCCFF;	
+	background: #009999;
+}
 
-/*To Do Input*/
+header {
+	background: #009999;
+	margin-bottom: 10px #009999;
+}
 
-/*To Do Date*/
+/*Main*/
+main {
+	background: #CCCCFF;
+}
 
-/*Add Button*/
+form {
+	margin-top: 16px;
+	font-size: 20px;
+}
+
+input {
+	font-size: 16px;
+	font-family: Calibri;
+}
+
+.input[type="checkbox"]: checked + span {
+	text-decoration: line-through;
+}
+
+button {
+	font-size: 16px;
+	padding: 4px;
+}
 
 /*To Do List Checkboxes*/
 .checkbox-list {
-	
+	text-align: left;
+	display: inline-block;
 }
