@@ -28,9 +28,8 @@ var products = [
 			"warm tan" 
 
 		],
-		price: [
+		price:
 			"$58"
-		]
 	},
 	
 	{ 
@@ -62,7 +61,9 @@ var products = [
 		color: [
 			"white"
 
-		]   
+		],   
+		price:
+			"$58"
 	},
 
 	{ 
@@ -89,7 +90,9 @@ var products = [
 			8,
 			10,
 			12   
-		]   
+		],
+		price:
+			"$58"   
 	},
 
 		{ 
@@ -116,7 +119,17 @@ var products = [
 			9,
 			10,
 			11 
-		]   
+		],
+			color: [
+			"black",
+			"slate",
+			"silver",
+			"white",
+			"warm tan" 
+
+		],
+		price:
+			"$58"   
 	},
 
 		{ 
@@ -138,7 +151,17 @@ var products = [
 		],
 		sizes: [    
 			"n/a" 
-		]   
+		],
+			color: [
+			"black",
+			"slate",
+			"silver",
+			"white",
+			"warm tan" 
+
+		],
+		price:
+			"$58"   
 	},
 
 		{ 
@@ -158,7 +181,17 @@ var products = [
 		], 
 		sizes: [    
 			"n/a"
-		]   
+		],
+			color: [
+			"black",
+			"slate",
+			"silver",
+			"white",
+			"warm tan" 
+
+		],
+		price:
+			"$58"   
 	},
 
 ];
