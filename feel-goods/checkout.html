@@ -1,47 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Feel Goods</title>
+	<title>Feel Goods Checkout</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/feelgoods.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/reset.css">
+	<link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
+<h1>Goods Shopping Cart</h1>
 
 <header>
-	<h1>Feel Goods</h1>
-	<p>Sustainability lifestyle store for the Good shopper who wants to feel good while looking good and living even better.</p>
-	<p>Live Good and Be Well.</p>
 
-	<ul>
-		<li>Clothes</li>
-		<li>Shoes</li>
-		<li>Accessories</li>
-		<li>Home Furnishings</li>
-		<li>Cleaning Products</li>
+<!-- copy header from feelgoods html-->
+
+	<ul class="top-links">
+		<li><a href="/">Home</a></li>
+		<li><a href="#">Clothes</a></li>
+		<li><a href="#">Shoes</a></li>
+		<li><a href="#">Beauty</a></li>
+		<li><a href="#">Accessories</a></li>
 	</ul>
-	
+
 </header>
 
-<input type ="text" name"" placeholder ="search goods"></input>
+<main>
+		<h3 class="goods-counter">Goods (1)</h3>
+		<ul class="checkout-items">
+			<!-- <li class="product-summary-container">
+				<div class="product-image">
+					<a href="product.html"><img src="imgs/toms-wedge.jpg"></a>
+				</div>
+				<div class="product-details">
+					<p>Product:</p>
+					<p>Size:</p>
+					<p>Color:</p>
+					<p>Price:</p>
+				</div>
+			</li> -->
+		</ul>		
 
-<h2>Products</h2>
+		<h3 class="total">Total:</h3>
 
-	<h3>Product 1</h3>
-	<h3>Product 2</h3>
-	<h3>Product 3</h3>
-	<h3>Product 4</h3>
-	<h3>Product 5</h3>
-	<h3>Product 6</h3>
+</main>
 
-<footer>
-	<p> <a href="">About</a> <span>/</span>
-	<p> <a href="">Contact</a> <span>/</span>
-	<p> <a href="">FAQs</a> <span>/</span>
-	
+<break> </break>
+
+<footer class=footer-links>
+	<p><a href="#">About</a></p><p>/</p>
+	<p><a href="#">Contact</a></p><p>/</p> 
+	<p><a href="#">Shipping</a></p><p>/</p>
+	<p><a href="#">FAQs</a></p><p>/</p> 
 </footer>
 
-<script src="js/feelgoods.js"></script>
+<script src="js/content.js"></script>
+<script src="js/checkout.js"></script>
 
 </body>
 </html>

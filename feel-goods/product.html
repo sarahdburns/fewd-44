@@ -4,68 +4,90 @@
 	<title>Feel Goods</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
-	<link rel="stylesheet" href="css/feelgoods.css">
+	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/reset.css">
+	<link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
+<span class="cart"><a href="checkout.html">Goods Cart<a/></span> 
 
-<h1>Product Name</h1>
+<h1 class="product-name"></h1>
 
 <header>
 
 <!-- copy header from feelgoods html-->
-	
-</header>
 
 	<ul class="top-links">
-		<li><a href="#">Home</a></li>
+		<li><a href="index.html">Home</a></li>
 		<li><a href="#">Clothes</a></li>
 		<li><a href="#">Shoes</a></li>
-		<li><a href="#">Makeup</a></li>
+		<li><a href="#">Beauty</a></li>
 		<li><a href="#">Accessories</a></li>
 	</ul>
 
+</header>
+
 <div class=product-container>
 	<div class="product-image">
-		<img src="imgs/toms-wedge.jpg">
+		<img src="" id="product-image"/>
 	</div>
 
 	<div class="features">
-		<h3>Features</h3>
-		<ul>
-			<li>Feature 1</li>
-			<li>Feature 2</li>
-			<li>Feature 3</li>
-			<li>Feature 4</li>
-			<li>Feature 5</li>
-		</ul>
+		<h3 class=list-header>Features</h3>
+		<ul id="feature-list"></ul>
+
+	<div class="why-good">
+		<h3 class=list-header>Why it's good?</h3>
+		<ul id="why-its-good"></ul>
+
+	</div>
+
+	<p class=price>Price:</p>
 
 		<div class="cart-selection">
 
 			<div class=select-buttons>
-				<select>
+				<select id="size-selector">
 					<option>Size</option>
 				</select>
-				<select>
+				<select id="color-selector">
+					<option>Color</option>
+				</select>
+				<select id="quantity-selector">
 					<option>Quantity</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
 				</select>
 			</div>
 
 		</div>
 
-		<button>Add to Goods Cart</button>
+		<button id="add-to-cart">Add to Goods Cart</button>
+		<button>Find More Goods</button>
 
 	</div>
 </div>
 
-
-<footer>
-
-<!-- copy footer from feelgoods html-->
-
+<footer class=footer-links>
+	<p><a href="#">About</a></p><p>/</p>
+	<p><a href="#">Contact</a></p><p>/</p> 
+	<p><a href="#">Shipping</a></p><p>/</p>
+	<p><a href="#">FAQs</a></p><p>/</p> 
 </footer>
 
-<script src="js/feelgoods.js"></script>
+<script src="js/content.js"></script>
+<script src="js/products.js"></script>
 
 </body>
 </html>

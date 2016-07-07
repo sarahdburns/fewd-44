@@ -1,0 +1,216 @@
+/*HOME PAGE CSS*/
+
+body {
+	background: mediumaquamarine;
+	font-family: Arial;
+	color: darkslategray;
+
+}
+
+/*CART*/
+
+span {
+	float: right;
+	padding: 20px;
+}
+
+span a {
+	color: mintcream;
+}
+
+/*Top Section - Navigation*/
+
+header {
+	padding-bottom: 10px;
+}
+
+h1 {
+	padding-bottom: 12px;
+	text-align: center;
+	font-family:'Rock Salt', cursive;
+	font-size: 60px;
+	border-bottom: 1.5px dotted darkslategray;
+}
+
+.tag-line {
+	padding-bottom: 16px;
+	text-align: center;
+}
+
+.tag-line2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.top-links {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-bottom: 20px;
+
+}
+
+.top-links li {
+	margin-right: 20px;
+}
+
+
+.top-links li a {
+	color: mintcream;
+
+	}
+
+/*Top Section - Search Bar*/
+
+input {
+	display: block;
+	margin: auto;
+	width: 200px;
+	height: 20px;
+	text-align: center;
+	margin-bottom: 40px;
+	background: mintcream;
+	border: 1px solid mintcream;
+	padding: 16px;
+	font-size: 24px;
+	font-size: lightslategray;
+	border-style: none;
+}
+
+/*Featured Products*/
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.products {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.products img {
+	width: 200px;
+	border: 1px solid slategray;
+	}
+
+/*Footer Links*/
+
+.footer-links {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+/*PRODUCT PAGE CSS*/
+
+h1 {
+	margin-bottom: 20px;
+	border-bottom-width: 1px;
+}
+
+.list-header {
+	margin-bottom: 20px;
+	padding: 20px;
+	border-bottom: 1.5px solid darkslategray;
+}
+
+.product-image img {
+	width: 400px;
+	border: 1px solid slategray;
+}
+
+.product-container {
+	display: flex;
+	justify-content: center;
+}
+
+.features {
+	width: 400px;
+	padding: 40px;
+	text-align: center;
+	background: ;
+
+}
+
+.features ul {
+	list-style: square;
+	text-align: left;
+}
+
+.price {
+	text-align: left;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.cart-selection {
+	display: flex;
+	justify-content: center;
+	margin: 20px auto 0;
+}
+
+select {
+	padding-bottom: 12px;
+	font-size: 20px;
+}
+
+button {
+	margin-top: 20px;
+	background-color: mintcream;
+	color: darkslategray;
+	padding: 10px;
+	font-size: 12px;
+	outline-style: none;
+	border-radius: 3px;
+	border: solid 1px slategray;
+	border-bottom: 1.5px solid darkslategray;
+}
+
+/*FOOTER CSS*/
+
+.footer-links p a {
+	color: mintcream;
+	padding: 20px;
+
+	}
+
+footer p {
+	color: darkslategray;
+}
+
+/*CHECK PAGE CSS*/
+
+.product-details {
+	display: block;
+	padding-left: 40px;
+}
+
+.product-summary-container {
+	display: flex; 
+	padding-top: 20px;
+}
+
+.product-summary-container img {
+	width: 160px;
+}
+
+.goods-counter {
+	padding-bottom: 20px;
+}
+
+h3 {
+	border-bottom: 1.5px solid darkslategray;
+}
+
+.product-details p {
+	font-weight: bold;
+}
+
+.total {
+	padding-top: 20px;
+	border: none;
+}
+

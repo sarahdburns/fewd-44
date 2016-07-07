@@ -1,0 +1,16 @@
+[
+	{ 
+		"id": "dress",
+		"picture": "imgs/everlane-tank.jpg",  
+		"name": "blue dress",  
+		"features": [    
+			"Textile upper",    
+			"cork wedge"  
+		],  
+		"sizes": [    
+			1,    
+			2,    
+			3  
+		]   
+	}
+]
