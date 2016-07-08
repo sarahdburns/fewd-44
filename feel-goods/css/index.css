@@ -2,7 +2,7 @@
 
 body {
 	background: mediumaquamarine;
-	font-family: Arial;
+	font-family: 'Text Me One', sans-serif;
 	color: darkslategray;
 
 }
@@ -16,6 +16,8 @@ span {
 
 span a {
 	color: mintcream;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 /*Top Section - Navigation*/
@@ -32,14 +34,21 @@ h1 {
 	border-bottom: 1.5px dotted darkslategray;
 }
 
+
 .tag-line {
 	padding-bottom: 16px;
 	text-align: center;
+	font-family: 'Nothing You Could Do', cursive;
+	font-weight: bold; 
+	font-size: 18px;
 }
 
 .tag-line2 {
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
+	font-family:'Rock Salt', cursive;
+	font-weight: bold; 
+	font-size: 22px;
 }
 
 .top-links {
@@ -57,8 +66,13 @@ h1 {
 
 .top-links li a {
 	color: mintcream;
-
+	font-size: 22px;
 	}
+
+.search-bar {
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 24px;
+}
 
 /*Top Section - Search Bar*/
 
@@ -82,6 +96,7 @@ input {
 h2 {
 	text-align: center;
 	margin-bottom: 40px;
+	font-family: 'Rock Salt', cursive;
 }
 
 .products {
@@ -113,8 +128,11 @@ h1 {
 
 .list-header {
 	margin-bottom: 20px;
-	padding: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 	border-bottom: 1.5px solid darkslategray;
+	font-size: 22px;
+	font-weight: bold;
 }
 
 .product-image img {
@@ -131,19 +149,22 @@ h1 {
 	width: 400px;
 	padding: 40px;
 	text-align: center;
-	background: ;
-
+	font-family: 'Nothing You Could Do', cursive;
 }
 
 .features ul {
 	list-style: square;
 	text-align: left;
+	font-family: 'Text Me One', sans-serif;
 }
 
 .price {
 	text-align: left;
-	margin-top: 20px;
+	margin-top: 30px;
 	font-weight: bold;
+	font-size: 20px;
+	font-weight: bolder;
+	font-family: 'Text Me One', sans-serif;
 }
 
 .cart-selection {
@@ -167,6 +188,7 @@ button {
 	border-radius: 3px;
 	border: solid 1px slategray;
 	border-bottom: 1.5px solid darkslategray;
+	font-style: 'Text Me One', sans-serif;
 }
 
 /*FOOTER CSS*/
@@ -174,6 +196,7 @@ button {
 .footer-links p a {
 	color: mintcream;
 	padding: 20px;
+	font-size: 18px;
 
 	}
 
@@ -182,6 +205,10 @@ footer p {
 }
 
 /*CHECK PAGE CSS*/
+
+.checkout-page {
+	margin-left: 40px;
+}
 
 .product-details {
 	display: block;
@@ -199,10 +226,8 @@ footer p {
 
 .goods-counter {
 	padding-bottom: 20px;
-}
-
-h3 {
-	border-bottom: 1.5px solid darkslategray;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 .product-details p {
